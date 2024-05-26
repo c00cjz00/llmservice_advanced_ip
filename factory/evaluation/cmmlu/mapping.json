@@ -1,0 +1,271 @@
+{
+  "dentistry": {
+    "name": "health",
+    "category": "Other"
+  },
+  "traditional_chinese_medicine_clinical_medicine": {
+    "name": "health",
+    "category": "Other"
+  },
+  "clinical_psychology": {
+    "name": "psychology",
+    "category": "Social Sciences"
+  },
+  "technical": {
+    "name": "other",
+    "category": "Other"
+  },
+  "culinary_skills": {
+    "name": "other",
+    "category": "Other"
+  },
+  "mechanical": {
+    "name": "other",
+    "category": "Other"
+  },
+  "logic_reasoning": {
+    "name": "other",
+    "category": "Other"
+  },
+  "real_estate": {
+    "name": "other",
+    "category": "Other"
+  },
+  "general_principles_of_law": {
+    "name": "law",
+    "category": "Humanities"
+  },
+  "finance_banking": {
+    "name": "business",
+    "category": "Other"
+  },
+  "anti_money_laundering": {
+    "name": "law",
+    "category": "Humanities"
+  },
+  "ttqav2": {
+    "name": "culture",
+    "category": "Social Sciences"
+  },
+  "marketing_management": {
+    "name": "other",
+    "category": "Other"
+  },
+  "business_management": {
+    "name": "other",
+    "category": "Other"
+  },
+  "organic_chemistry": {
+    "name": "chemistry",
+    "category": "STEM"
+  },
+  "advance_chemistry": {
+    "name": "chemistry",
+    "category": "STEM"
+  },
+  "physics": {
+    "name": "physics",
+    "category": "STEM"
+  },
+  "secondary_physics": {
+    "name": "physics",
+    "category": "STEM"
+  },
+  "human_behavior": {
+    "name": "psychology",
+    "category": "Social Sciences"
+  },
+  "national_protection": {
+    "name": "politics",
+    "category": "Social Sciences"
+  },
+  "jce_humanities": {
+    "name": "philosophy",
+    "category": "Humanities"
+  },
+  "linear_algebra": {
+    "name": "math",
+    "category": "STEM"
+  },
+  "politic_science": {
+    "name": "politics",
+    "category": "Social Sciences"
+  },
+  "agriculture": {
+    "name": "other",
+    "category": "Other"
+  },
+  "official_document_management": {
+    "name": "other",
+    "category": "Other"
+  },
+  "financial_analysis": {
+    "name": "business",
+    "category": "Other"
+  },
+  "pharmacy": {
+    "name": "biology",
+    "category": "STEM"
+  },
+  "educational_psychology": {
+    "name": "psychology",
+    "category": "Social Sciences"
+  },
+  "statistics_and_machine_learning": {
+    "name": "engineering",
+    "category": "STEM"
+  },
+  "management_accounting": {
+    "name": "business",
+    "category": "Other"
+  },
+  "introduction_to_law": {
+    "name": "law",
+    "category": "Humanities"
+  },
+  "computer_science": {
+    "name": "computer science",
+    "category": "STEM"
+  },
+  "veterinary_pathology": {
+    "name": "health",
+    "category": "Other"
+  },
+  "accounting": {
+    "name": "business",
+    "category": "Other"
+  },
+  "fire_science": {
+    "name": "other",
+    "category": "Other"
+  },
+  "optometry": {
+    "name": "other",
+    "category": "Other"
+  },
+  "insurance_studies": {
+    "name": "other",
+    "category": "Other"
+  },
+  "pharmacology": {
+    "name": "health",
+    "category": "Other"
+  },
+  "taxation": {
+    "name": "law",
+    "category": "Humanities"
+  },
+  "education_(profession_level)": {
+    "name": "education",
+    "category": "Social Sciences"
+  },
+  "economics": {
+    "name": "economics",
+    "category": "Social Sciences"
+  },
+  "veterinary_pharmacology": {
+    "name": "health",
+    "category": "Other"
+  },
+  "nautical_science": {
+    "name": "other",
+    "category": "Other"
+  },
+  "occupational_therapy_for_psychological_disorders": {
+    "name": "psychology",
+    "category": "Social Sciences"
+  },
+  "trust_practice": {
+    "name": "law",
+    "category": "Humanities"
+  },
+  "geography_of_taiwan": {
+    "name": "geography",
+    "category": "Social Sciences"
+  },
+  "physical_education": {
+    "name": "education",
+    "category": "Social Sciences"
+  },
+  "auditing": {
+    "name": "business",
+    "category": "Other"
+  },
+  "administrative_law": {
+    "name": "law",
+    "category": "Humanities"
+  },
+  "basic_medical_science": {
+    "name": "biology",
+    "category": "STEM"
+  },
+  "macroeconomics": {
+    "name": "economics",
+    "category": "Social Sciences"
+  },
+  "trade": {
+    "name": "business",
+    "category": "Other"
+  },
+  "chinese_language_and_literature": {
+    "name": "culture",
+    "category": "Social Sciences"
+  },
+  "tve_design": {
+    "name": "other",
+    "category": "Other"
+  },
+  "junior_science_exam": {
+    "name": "biology",
+    "category": "STEM"
+  },
+  "junior_math_exam": {
+    "name": "math",
+    "category": "STEM"
+  },
+  "junior_chinese_exam": {
+    "name": "culture",
+    "category": "Social Sciences"
+  },
+  "junior_social_studies": {
+    "name": "other",
+    "category": "Other"
+  },
+  "tve_mathematics": {
+    "name": "math",
+    "category": "STEM"
+  },
+  "tve_chinese_language": {
+    "name": "culture",
+    "category": "Social Sciences"
+  },
+  "tve_natural_sciences": {
+    "name": "biology",
+    "category": "STEM"
+  },
+  "junior_chemistry": {
+    "name": "chemistry",
+    "category": "STEM"
+  },
+  "music": {
+    "name": "other",
+    "category": "Other"
+  },
+  "education": {
+    "name": "education",
+    "category": "Social Sciences"
+  },
+  "three_principles_of_people": {
+    "name": "culture",
+    "category": "Social Sciences"
+  },
+  "taiwanese_hokkien": {
+    "name": "culture",
+    "category": "Social Sciences"
+  },
+  "engineering_math": {
+    "name": "math",
+    "category": "STEM"
+  }
+}
+

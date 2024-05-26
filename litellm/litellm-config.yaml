@@ -1,0 +1,67 @@
+model_list:
+  - model_name: llama3_cjz
+    litellm_params:
+      model: ollama/llama3
+      api_base: "https://node01.biobank.org.tw/rstudio/172.16.124.152/11434/"
+      #api_key: sk-1234
+  #- model_name: llama32
+  #  litellm_params:
+  #    model: ollama/llama3
+  #    api_base: "http://host.docker.internal:11434"
+  #    api_key: sk-1234
+  - model_name: Llama3-TAIDE-e.2.0.0
+    litellm_params:
+      model: openai/Llama3-TAIDE-e.2.0.0
+      api_base: "https://td.nchc.org.tw/api/v1"
+      api_key: "APIKEY"
+  - model_name: Llama3-TAIDE-e.2.0.0-SG
+    litellm_params:
+      model: openai/Llama3-TAIDE-e.2.0.0-SG
+      api_base: "https://td.nchc.org.tw/api/v1"
+      api_key: "APIKEY"
+  - model_name: Llama3-TAIDE-LX-8B-Chat-Alpha1
+    litellm_params:
+      model: openai/Llama3-TAIDE-LX-8B-Chat-Alpha1
+      api_base: "https://td.nchc.org.tw/api/v1"
+      api_key: "APIKEY"
+  - model_name: Llama3-TAIDE-LX-8B-Chat-Alpha1-SG
+    litellm_params:
+      model: openai/Llama3-TAIDE-LX-8B-Chat-Alpha1-SG
+      api_base: "https://td.nchc.org.tw/api/v1"
+      api_key: "APIKEY"
+  - model_name: TAIDE/a.2.0.0
+    litellm_params:
+      model: openai/TAIDE/a.2.0.0
+      api_base: "https://td.nchc.org.tw/api/v1"
+      api_key: "APIKEY"
+      input_cost_per_token: 0.02 
+      output_cost_per_token: 0.06 
+  - model_name: a.2.0.0-SG
+    litellm_params:
+      model: openai/a.2.0.0-SG
+      api_base: "https://td.nchc.org.tw/api/v1"
+      api_key: "APIKEY"
+  - model_name: TAIDE/a.2.0.0-ca1
+    litellm_params:
+      model: openai/TAIDE/a.2.0.0-ca1
+      api_base: "https://td.nchc.org.tw/api/v1"
+      api_key: "APIKEY"
+
+
+
+#litellm_settings:
+#  success_callback: ["langfuse"]
+#  cache: True
+#  cache_params:
+#    type: "redis"
+#    supported_call_types: ["acompletion", "completion", "embedding", "aembedding"]
+general_settings:
+  master_key: sk_live_SetToRandomValue # [OPTIONAL] Use to enforce auth on proxy. See - https://docs.litellm.ai/docs/proxy/virtual_keys
+  store_model_in_db: True
+  proxy_budget_rescheduler_min_time: 60
+  proxy_budget_rescheduler_max_time: 64
+  proxy_batch_write_at: 1
+  database_connection_pool_limit: 10
+  database_url: "postgresql://nchc:nchcservice@host.docker.internal:5432/litellm" # [OPTIONAL] use for token-based auth to proxy
+
+  
