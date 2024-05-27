@@ -1,5 +1,5 @@
 {
-  "身份認證": {
+  "identity": {
     "file_name": "identity.json",
     "columns": {
       "prompt": "instruction",
