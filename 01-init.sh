@@ -31,9 +31,9 @@ mkdir -p storage/factory_data storage/factory_saves storage/factory_cache storag
 mkdir -p storage/output
 mkdir -p storage/postgres
 mkdir -p storage/pgadmin
-chmod 777 storage/pgadmin
 cp factory/data/dataset_info.json storage/factory_data/
 cp factory/data/identity.json storage/factory_data/
+rsync -avHS factory/examples/ storage/factory_examples
 rsync -avHS notebook/ storage/jupyter_data/notebook
  
 if ! [ -f ./storage/anythingllm_env.txt ]; then

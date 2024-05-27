@@ -22,6 +22,7 @@ services:
       - ./storage/factory_data:/app/data
       - ./storage/factory_saves:/app/saves
       - ./storage/factory_cache:/app/cache
+      - ./storage/factory_examples:/app/examples
       - ./factory/src/webui.py:/app/src/webui.py
       - ./factory/src/llamafactory/webui/interface.py:/app/src/llamafactory/webui/interface.py
       - ./factory/src/llamafactory/webui/locales.py:/app/src/llamafactory/webui/locales.py
@@ -38,7 +39,14 @@ services:
       - host.docker.internal:host-gateway      
     working_dir: /workspace
     command: bash -c "cd /app && llamafactory-cli webui > /workspace/factory.log 2>&1 & jupyter lab --NotebookApp.token=${SYSTEM_KEY} --notebook-dir=/workspace --port=9999"      
-            
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: "all"
+              capabilities: [gpu]
+              
   nchc_ollama:
     container_name: nchc_ollama
     image: ollama/ollama:latest
@@ -52,6 +60,13 @@ services:
     restart: unless-stopped
     networks:
       - nchc
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: "all"
+              capabilities: [gpu]
               
   nchc_openwebui:
     container_name: nchc_openwebui
@@ -153,7 +168,7 @@ services:
       PGADMIN_LISTEN_PORT: 5080
     extra_hosts:
       - host.docker.internal:host-gateway
-      
+
   nchc_nginx:
     container_name: nchc_nginx
     image: nginx
