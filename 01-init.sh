@@ -33,6 +33,8 @@ mkdir -p storage/postgres
 mkdir -p storage/pgadmin
 cp factory/data/dataset_info.json storage/factory_data/
 cp factory/data/identity.json storage/factory_data/
+cp factory/data/alpaca_en_demo.json storage/factory_data/
+cp factory/data/c4_demo.json storage/factory_data/
 rsync -avHS factory/examples/ storage/factory_examples
 rsync -avHS notebook/ storage/jupyter_data/notebook
  

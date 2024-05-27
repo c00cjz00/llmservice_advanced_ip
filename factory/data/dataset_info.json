@@ -1,15 +1,54 @@
 {
   "身份認證": {
     "file_name": "identity.json",
-    "file_sha1": "a35c2ce67b28bac096cea6e50fee8baa7fcfbfc5",
     "columns": {
       "prompt": "instruction",
       "query": "input",
       "response": "output"
     }
+  },
+  "alpaca_en_demo": {
+    "file_name": "alpaca_en_demo.json"
+  }, 
+ "alpaca_en": {
+    "hf_hub_url": "llamafactory/alpaca_en"
+  },
+  "alpaca_gpt4_en": {
+    "hf_hub_url": "llamafactory/alpaca_gpt4_en"
   },    
-  "內政部勞工局": {
-    "hf_hub_url": "TLLM/mol_ft_data",
+  "taiwan_e_hospital": {
+    "hf_hub_url": "c00cjz00/taiwan_e_hospital"
+  },       
+  "b8.3patch1": {
+    "hf_hub_url": "c00cjz00/b8.3-patch1",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"  
+    }
+  },
+  "b8.3patch2": {
+    "hf_hub_url": "c00cjz00/b8.3patch2",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"  
+    }
+  },
+  "taiwan_song": {
+    "hf_hub_url": "c00cjz00/ft-taiwan-song",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages"
@@ -21,194 +60,10 @@
       "assistant_tag": "assistant"
     }
   },
-  "Taide-b7.1": {
-    "hf_hub_url": "TLLM/ft-balance-mixed",
-    "formatting": "sharegpt",
+  "c4_demo": {
+    "file_name": "c4_demo.json",
     "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant",
-      "system_tag": "system"  
-    },
-    "folder": "b7.1"
-  },
-  "Taide-b8.0": {
-    "hf_hub_url": "TLLM/ft-balance-mixed",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant",
-      "system_tag": "system"  
-    },
-    "folder": "b8.0"
-  },
-  "Taide-b8.1": {
-    "hf_hub_url": "TLLM/ft-balance-mixed",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant",
-      "system_tag": "system"  
-    },
-    "folder": "b8.1"
-  },
-  "Taide-b8.2": {
-    "hf_hub_url": "TLLM/ft-balance-mixed",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant",
-      "system_tag": "system"  
-    },
-    "folder": "b8.2"
-  },
-  "Taide-b8.3": {
-    "hf_hub_url": "TLLM/ft-balance-mixed",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant",
-      "system_tag": "system"  
-    },
-    "folder": "b8.3"
-  },
-  "Taide-b8.3patch1": {
-    "hf_hub_url": "TLLM/ft-balance-mixed",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant",
-      "system_tag": "system"  
-    },
-    "folder": "b8.3patch1"
-  },
-  "Taide-b8.3patch2": {
-    "hf_hub_url": "TLLM/ft-balance-mixed",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant",
-      "system_tag": "system"  
-    },
-    "folder": "b8.3patch2"
-  },
-  "Taide-b9.0": {
-    "hf_hub_url": "TLLM/ft-balance-mixed",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant",
-      "system_tag": "system"  
-    },
-    "folder": "b9.0"
-  },
-  "Taide-b9.1": {
-    "hf_hub_url": "TLLM/ft-balance-mixed",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant",
-      "system_tag": "system"  
-    },
-    "folder": "b9.1"
-  },  
-  "Taide-文章寫作": {
-    "hf_hub_url": "TLLM/TAIDE_FTData_Release",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant"
-    },
-    "folder": "UltraChat-CreationAndWriting"
-  }, 
-  "Taide-問答題": {
-    "hf_hub_url": "TLLM/TAIDE_FTData_Release",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant"
-    },
-    "folder": "UltraChat-QuestionAboutTheWorld"
-  }, 
-  "Taide-WizardLM": {
-    "hf_hub_url": "TLLM/TAIDE_FTData_Release",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant"
-    },
-    "folder": "WizardLM"
-  },  
-  "Taide-taiwan-song": {
-    "hf_hub_url": "TLLM/ft-taiwan-song",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant"
+      "prompt": "text"
     }
-  }
+  }   
 }
