@@ -7,7 +7,7 @@
 
 ## Step1: GIT 下載套件
 ```
-git clone https://github.com/c00cjz00/llmservice_basic_demo
+git clone https://github.com/c00cjz00/llmservice_advanced_ip.git
 ```
 
 ## Step 2: 編輯env.sample
