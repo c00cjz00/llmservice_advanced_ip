@@ -1,8 +1,5 @@
 # nchc service
-```
-# AUTO RUN
-./03-init_argv.sh $clouflarekey nctu 140.110.139.64
-```
+
 ## DOCKER 安裝
 - https://hackmd.io/@whYPD8MBSHWRZV6y-ymFwQ/Hk8pJ95eA
 - https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
